@@ -1,0 +1,68 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/*.container {
+  position: relative;
+  width: 50%;
+}*/
+
+.bg {
+  /* The image used */
+  background-image: url("Red_Girl.JPG");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*.container .button {
+  position: absolute;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 50%;
+  left: 50%;
+  margin: 4px 2px;
+  cursor: pointer;
+}*/
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container .button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 24px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .button:hover {
+  background-color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+	
