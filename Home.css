@@ -1,68 +1,33 @@
-body, html {
-  height: 100%;
+
+ul 
+{
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-/*.container {
-  position: relative;
-  width: 50%;
-}*/
-
-.bg {
-  /* The image used */
-  background-image: url("Red_Girl.JPG");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+li 
+{
+  float: left;
 }
 
-/*.container .button {
-  position: absolute;
-  background-color: #4CAF50;
-  border: none;
+li a 
+{
+  display: block;
   color: white;
-  padding: 15px 32px;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  top: 50%;
-  left: 50%;
-  margin: 4px 2px;
-  cursor: pointer;
-}*/
-
-.container {
-  position: relative;
-  width: 100%;
 }
 
-.container .button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 24px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+li a:hover:not(.active) 
+{
+  background-color: #111;
 }
 
-.container .button:hover {
-  background-color: black;
+.active 
+{
+  background-color: #4CAF50;
 }
-
-img {
-  width: 100%;
-  height: auto;
-}
-	
