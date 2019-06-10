@@ -2,17 +2,66 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<!---Linking the css and giving the page a title-->
 	<link rel="stylesheet" type="text/css" href="Home.css" />
-	<title>Western Art Periods</title>
+	<title>Western Art Movements</title>
 </head>
 <body>
+	<!--Creating the navigation bar-->
 	<ul>
-	  <li><a class="active" href="#home">Home</a></li>
-	  <li><a href="#news">News</a></li>
-	  <li><a href="#contact">Contact</a></li>
-	  <li><a href="#about">About</a></li>
+	  <li><a class="active" href="index.html">Home</a></li>
+	  <li><a href="index2.html">Pre-Renaissance</a></li>
+	  <li><a href="index3.html">Renaissance</a></li>
+	  <li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">Post-Renaissance &darr;</a>
+		<div class="dropdown-content">
+			<a href="index4.html">Baroque & Rococo</a>
+			<a href="index5.html">Impressionism</a>
+		</div>
+	  </li>
+	  <li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">20th Century &darr;</a>
+		<div class="dropdown-content">
+			<a href="index6.html">Cubism</a>
+			<a href="index7.html">Surrealism</a>
+		</div>
+	  </li>
+	  <li><a href="index8.html">Sources</a></li>
 	</ul>
-	
+	<!--Putting an image behind the header and putting buttons on the image, below the header-->
+	<div class="container">
+		<img src="Red_Girl.jpg" alt="Painting of a girl in a red dress holding flowers." height="718px" width="100%">
+		<div class="title"><h1>Art Movements In The West<h1></div>
+		<a href="#WhatIsArt"><button class="btn">What Is Art?</button></a>
+		<a href="#ArtMovements"><button class="btn2">What Are Art Movements?</button></a>
+	</div>
+	<h2 id="WhatIsArt">What is art?</h2>
+	<!--Putting the image and text beside each other using aligned boxes-->
+	<div class="clearfix">
+		<div class="box">
+		<p>Art is a medium of expression. Through art, you can express your emotions, desires, and intuitions. There are many forms of art such as music, drama, dance, etc. For some reason though, whenever we, as a society, think of art, we think of the visual arts. This may be due to the fact that the visual arts are the <a href="https://en.wikipedia.org/wiki/Art">oldest documented art form.</a> This page explores how the definition of what is "good" art has changed throughout history and also how the visual arts have evolved stylistically.</p>
+		</div>
+		<div class="box">
+		<img src="Oldest_Painting.jpg" alt="Cave painting of a red bull." height="652px" width="1024px">
+		<p class="caption">The oldest known painting, located in a cave in Borneo, is around 40,000 - 52,000 years old</p>
+		</div>
+	</div>
+		
+	<h2 id="ArtMovements">What are art movements?<h2>
+	<!--Putting the image and text beside each other using aligned boxes-->
+	<div class="clearfix">
+		<div class="box">
+		<img src="death_girl.jpg" alt="Painting of a girl in a dress wearing a white mask standing in a field." height="750px" width="552px">
+		<p class="caption">Girl with Death Mask (She Plays Alone), painting by feminist artist Frida Kahlo</p>
+		</div>
+		<div class="box">
+		<p>Art movements occur when a group of artists start following a certain style of art with one common philosophy/ideolody in mind. Art movements are typically a reflection of the state of the world at the time the movement had occurred. Many art movements occur during times of great change and/or distress. This may be due to the fact that art can sometimes fuel change in society. One example of this would be the <a href="https://www.theartstory.org/movement-feminist-art.htm">femnist art movement</a>, which played a huge role in the feminist movement that occured in the 1970s. In summary, by studying art movements you can gain a better understanding of what society was like when the movement occurred and how art can influence and change the world.</p>
+		</div>
+	</div>
+	<!--Inserting a validator link-->
+	<a href="http://validator.w3.org/check?uri=https://kerasl.github.io/home/">
+	<img src="html5_with_css3_+_semantics.png" width="165" height="64" 	alt="HTML5 with CSS3 and Semantics">
+	</a>
 
 </body>
 </html>
